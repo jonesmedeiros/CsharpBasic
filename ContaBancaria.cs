@@ -3,20 +3,20 @@ namespace Banco;
     class ContaBancaria{
     
         public int Numero { get ; private set;}
-        public string _titular;
+        public string _titular = string.Empty;
         public double Saldo{get; set;}
               
-
+        //primeiro Construtor com dois parametros
         public ContaBancaria(int numero, string titular ){
                 Numero = numero;
-                Titular = titular; 
+                _titular = titular; 
 
         }
-
-            public ContaBancaria(int numero, string titular, double saldo ){
+        //segundo Construtor com três parametros
+            public ContaBancaria(int numero, string titular, double depositoInicial){ 
                 Numero = numero;
-                _titular = titular;
-                 Saldo = 0.0;
+                _titular = titular; 
+                 Deposito(depositoInicial);
             }
 
             public string Titular{
@@ -24,9 +24,14 @@ namespace Banco;
                 set{ 
                     if (value != null && value.Length > 1) {
                         _titular = value;}
-
-                }
+                 }
             }
-
-
-        }
+            //primeiro metodo
+            public void Deposito(double quantia){
+                Saldo += quantia;
+            }
+             //segundo metodo
+            public void Saque(double quantia){
+                Saldo -= quantia + 5.0;
+            }
+     }
