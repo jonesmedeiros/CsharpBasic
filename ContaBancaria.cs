@@ -4,7 +4,7 @@ namespace Banco;
     
         public int Numero { get ; private set;}
         public string _titular = string.Empty;
-        public double Saldo{get; set;}
+        public double Saldo{get; private set;}
               
         //primeiro Construtor com dois parametros
         public ContaBancaria(int numero, string titular ){
