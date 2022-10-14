@@ -3,19 +3,20 @@ namespace Banco;
     class ContaBancaria{
     
         public int Numero { get ; private set;}
-        private string _titular = string.Empty;
-        private double _saldo;
-        public double Saque{get; private set;}
-        public double Deposito{get; private set;}
-        public double Taxa {get; private set;}
+        public string _titular;
+        public double Saldo{get; set;}
+              
 
-        public ContaBancaria(){ 
+        public ContaBancaria(int numero, string titular ){
+                Numero = numero;
+                Titular = titular; 
 
         }
 
-            public ContaBancaria(double saldo, string titular ){
+            public ContaBancaria(int numero, string titular, double saldo ){
+                Numero = numero;
                 _titular = titular;
-                _saldo = saldo;
+                 Saldo = 0.0;
             }
 
             public string Titular{
