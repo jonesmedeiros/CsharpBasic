@@ -1,0 +1,15 @@
+C:\Users\Jones\Ambientes\ProjetosCs\ObjetoClasse\ObjetoClasse\bin\Debug\net6.0\ObjetoClasse.exe
+C:\Users\Jones\Ambientes\ProjetosCs\ObjetoClasse\ObjetoClasse\bin\Debug\net6.0\ObjetoClasse.deps.json
+C:\Users\Jones\Ambientes\ProjetosCs\ObjetoClasse\ObjetoClasse\bin\Debug\net6.0\ObjetoClasse.runtimeconfig.json
+C:\Users\Jones\Ambientes\ProjetosCs\ObjetoClasse\ObjetoClasse\bin\Debug\net6.0\ObjetoClasse.dll
+C:\Users\Jones\Ambientes\ProjetosCs\ObjetoClasse\ObjetoClasse\bin\Debug\net6.0\ObjetoClasse.pdb
+C:\Users\Jones\Ambientes\ProjetosCs\ObjetoClasse\ObjetoClasse\obj\Debug\net6.0\ObjetoClasse.csproj.AssemblyReference.cache
+C:\Users\Jones\Ambientes\ProjetosCs\ObjetoClasse\ObjetoClasse\obj\Debug\net6.0\ObjetoClasse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jones\Ambientes\ProjetosCs\ObjetoClasse\ObjetoClasse\obj\Debug\net6.0\ObjetoClasse.AssemblyInfoInputs.cache
+C:\Users\Jones\Ambientes\ProjetosCs\ObjetoClasse\ObjetoClasse\obj\Debug\net6.0\ObjetoClasse.AssemblyInfo.cs
+C:\Users\Jones\Ambientes\ProjetosCs\ObjetoClasse\ObjetoClasse\obj\Debug\net6.0\ObjetoClasse.csproj.CoreCompileInputs.cache
+C:\Users\Jones\Ambientes\ProjetosCs\ObjetoClasse\ObjetoClasse\obj\Debug\net6.0\ObjetoClasse.dll
+C:\Users\Jones\Ambientes\ProjetosCs\ObjetoClasse\ObjetoClasse\obj\Debug\net6.0\refint\ObjetoClasse.dll
+C:\Users\Jones\Ambientes\ProjetosCs\ObjetoClasse\ObjetoClasse\obj\Debug\net6.0\ObjetoClasse.pdb
+C:\Users\Jones\Ambientes\ProjetosCs\ObjetoClasse\ObjetoClasse\obj\Debug\net6.0\ObjetoClasse.genruntimeconfig.cache
+C:\Users\Jones\Ambientes\ProjetosCs\ObjetoClasse\ObjetoClasse\obj\Debug\net6.0\ref\ObjetoClasse.dll
