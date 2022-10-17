@@ -1,3 +1,5 @@
+using System.Globalization;
+
 namespace Banco;
 
     class ContaBancaria{
@@ -19,12 +21,23 @@ namespace Banco;
                  Deposito(depositoInicial);
             }
 
-            public string Titular{
+            /*public string Titular{
                 get{ return _titular;}
                 set{ 
                     if (value != null && value.Length > 1) {
                         _titular = value;}
                  }
+            }*/
+
+            // Imprimindo dados da conta
+            public override string ToString(){
+                return "Conta: "
+                + Numero
+                + ", Titular: "
+                +_titular
+                +", Saldo: "
+                +Saldo.ToString("F2", CultureInfo.InvariantCulture);
+
             }
             //primeiro metodo
             public void Deposito(double quantia){
